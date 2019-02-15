@@ -1,14 +1,14 @@
 {
-  "main.css": "/github.io/Portfolio/static/css/main.996e92ff.chunk.css",
-  "main.js": "/github.io/Portfolio/static/js/main.583b0957.chunk.js",
-  "main.js.map": "/github.io/Portfolio/static/js/main.583b0957.chunk.js.map",
-  "runtime~main.js": "/github.io/Portfolio/static/js/runtime~main.f39ff207.js",
-  "runtime~main.js.map": "/github.io/Portfolio/static/js/runtime~main.f39ff207.js.map",
-  "static/js/2.ba1ca5ba.chunk.js": "/github.io/Portfolio/static/js/2.ba1ca5ba.chunk.js",
-  "static/js/2.ba1ca5ba.chunk.js.map": "/github.io/Portfolio/static/js/2.ba1ca5ba.chunk.js.map",
-  "index.html": "/github.io/Portfolio/index.html",
-  "precache-manifest.7b8d081fd2fdc71ac0e375d734ffcd38.js": "/github.io/Portfolio/precache-manifest.7b8d081fd2fdc71ac0e375d734ffcd38.js",
-  "service-worker.js": "/github.io/Portfolio/service-worker.js",
-  "static/css/main.996e92ff.chunk.css.map": "/github.io/Portfolio/static/css/main.996e92ff.chunk.css.map",
-  "static/media/logo.svg": "/github.io/Portfolio/static/media/logo.5d5d9eef.svg"
+  "main.css": "/Portfolio/static/css/main.996e92ff.chunk.css",
+  "main.js": "/Portfolio/static/js/main.0138ab12.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.0138ab12.chunk.js.map",
+  "runtime~main.js": "/Portfolio/static/js/runtime~main.591eb5be.js",
+  "runtime~main.js.map": "/Portfolio/static/js/runtime~main.591eb5be.js.map",
+  "static/js/2.ba1ca5ba.chunk.js": "/Portfolio/static/js/2.ba1ca5ba.chunk.js",
+  "static/js/2.ba1ca5ba.chunk.js.map": "/Portfolio/static/js/2.ba1ca5ba.chunk.js.map",
+  "index.html": "/Portfolio/index.html",
+  "precache-manifest.d052494b1cc7dee88f2c3eb47ac0c0a6.js": "/Portfolio/precache-manifest.d052494b1cc7dee88f2c3eb47ac0c0a6.js",
+  "service-worker.js": "/Portfolio/service-worker.js",
+  "static/css/main.996e92ff.chunk.css.map": "/Portfolio/static/css/main.996e92ff.chunk.css.map",
+  "static/media/logo.svg": "/Portfolio/static/media/logo.5d5d9eef.svg"
 }
