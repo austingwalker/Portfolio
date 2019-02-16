@@ -1,7 +1,11 @@
 .personalInfoBox {
-    border: 1px solid gray;
-    margin: 0;
-    text-align: center;
-    padding: 150px;
+  
+    /* background-image: url(http://i65.tinypic.com/2iuxptx.jpg);
+    background-size: cover; */
+    background-position: left center;
+    height: 100%;
+    width:  100%;
+    float: left;
 
 }
+

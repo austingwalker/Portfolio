@@ -1,0 +1,26 @@
+.boxesBox {
+    /* border: 1px solid red; */
+    height: 300px;
+    width:  100%;
+    float: left;
+    
+    padding-right:0;
+    padding-left:0;
+}
+
+.topBox {
+    height: 50%;
+    width:  100%;
+    /* border-bottom: 1px solid red; */
+    background: rgb(48, 45, 45);
+    color: white;
+}
+
+.bottomBox {
+    height: 50%;
+    width:  100%;
+    background: rgb(36, 33, 33);
+    color: white;
+    text-align: center;
+}
+

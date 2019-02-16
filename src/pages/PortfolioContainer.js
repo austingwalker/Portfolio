@@ -4,10 +4,10 @@ import Picture from "../components/Picture";
 import NameBio from "../components/NameBio";
 import Content from "../components/Content";
 import PersonalInfo from "../components/PersonalInfo";
-// import Container from "../components/Container";
-// import Row from "../components/Row";
-// import Col from "../components/Col";
 import Footer from "../components/Footer";
+import Boxes from "../components/Boxes";
+import Info from "../components/Info";
+import Skills from "../components/Skills";
 import "./PortfolioContainer.css";
 
 
@@ -20,17 +20,27 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <Container fluid>
-          <Row>
-            <Col  md="4"><Picture/></Col>
-            <Col md="8"><NameBio/></Col>
+        <Container className="containerBox" fluid>
+          <Row >
+            <Col className="noGutters" md="4" ><Picture/></Col>
+            <Col className="noGutters" md="6" ><NameBio/></Col>
+            <Col className="noGutters" md="2" ><Boxes/></Col>
           </Row>
           <Row>
-            <Col md="8"><Content/></Col>
-            <Col md="4"><PersonalInfo/></Col>
+            <Col className="noGutters" md="8"><Content/></Col>
+            <Col className="noGutters" md="4">
+            <PersonalInfo>
+            <Row>
+              <Info/>
+            </Row>
+            <Row>
+              <Skills/>
+            </Row>
+            </PersonalInfo>
+            </Col>
           </Row>
           <Row>
-            <Col md="12"><Footer/></Col>
+            <Col className="noGutters" md="12"><Footer/></Col>
           </Row>
         </Container>
       </div>
