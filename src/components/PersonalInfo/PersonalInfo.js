@@ -2,7 +2,7 @@ import React from "react";
 import "./PersonalInfo.css";
 
 const PersonalInfo = props => (
-    <div className="personalInfo">
+    <div className="personalInfoBox">
         <div>
             Personal Info
         </div>

@@ -1,12 +1,16 @@
 import React, { Component } from "react";
+import { Container, Row, Col } from 'reactstrap';
 import Picture from "../components/Picture";
 import NameBio from "../components/NameBio";
 import Content from "../components/Content";
 import PersonalInfo from "../components/PersonalInfo";
-import Container from "../components/Container";
-import Row from "../components/Row";
-import Col from "../components/Col";
+// import Container from "../components/Container";
+// import Row from "../components/Row";
+// import Col from "../components/Col";
 import Footer from "../components/Footer";
+import "./PortfolioContainer.css";
+
+
 
 class Portfolio extends Component {
   state = {
@@ -16,17 +20,17 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <Container>
+        <Container fluid>
           <Row>
-            <Col size="md-6"><Picture/></Col>
-            <Col size="md-6"><NameBio/></Col>
+            <Col  md="4"><Picture/></Col>
+            <Col md="8"><NameBio/></Col>
           </Row>
           <Row>
-            <Col size="md-6"><Content/></Col>
-            <Col size="md-6"><PersonalInfo/></Col>
+            <Col md="8"><Content/></Col>
+            <Col md="4"><PersonalInfo/></Col>
           </Row>
           <Row>
-            <Footer/>
+            <Col md="12"><Footer/></Col>
           </Row>
         </Container>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "./Content.css";
 
 const Content = props => (
-    <div className="content">
+    <div className="contentBox">
         <div>
             Content
         </div>

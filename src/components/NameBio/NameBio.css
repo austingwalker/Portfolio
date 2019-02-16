@@ -1,0 +1,17 @@
+.nameBioBox {
+    border: 1px solid red;
+    height: 100%;
+    width:  100%;
+
+}
+
+.nameBox {
+    height: 50%;
+    width:  100%;
+    border-bottom: 1px solid red;
+}
+
+.bioBox {
+    height: 50%;
+    width:  100%;
+}
