@@ -29,11 +29,13 @@
 
 .portfolioRow {
     background-image: url(http://i63.tinypic.com/2vsjn7t.jpg);
-    
-    background-position: center;
+    /* background-size: cover; */
+    background-position: right;
 }
 
+/* color star - http://i68.tinypic.com/1zyk80h.jpg */
 
+/* colo brickwall - http://i68.tinypic.com/16k3sr7.jpg */
 
 /* topography - http://i63.tinypic.com/2vsjn7t.jpg */
 

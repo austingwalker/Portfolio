@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "https://via.placeholder.com/150",
+      "image": "http://i64.tinypic.com/2hmeipf.jpg",
       "name": "House Manager",
       "description": "Authentication app with administrator & client login capabilities",
       "technologies": "Javascript, Node.js, SQL, Sequelize, Passport, Bcrypt",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "image": "https://via.placeholder.com/150",
+      "image": "http://i63.tinypic.com/smwwmf.jpg",
       "name": "Loteria Memoria",
       "description": "Card memory game",
       "technologies": "JavaScript & React",
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "image": "https://via.placeholder.com/150",
+      "image": "http://i65.tinypic.com/15coylz.jpg",
       "name": "Baseball Coach Scraper",
       "description": "Scraping, storing, retrieving, and displaying data using the MERN stack",
       "technologies": "MERN",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "image": "https://via.placeholder.com/150",
+      "image": "http://i67.tinypic.com/10ooebo.jpg",
       "name": "Volunteer Manager",
       "description": "Database management system",
       "technologies": "MERN",
