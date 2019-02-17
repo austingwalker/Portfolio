@@ -1,11 +1,12 @@
 .boxesBox {
     /* border: 1px solid red; */
     height: 300px;
-    width:  100%;
+    width:  185px;
     float: left;
     
     padding-right:0;
     padding-left:0;
+    position: relative;
 }
 
 .topBox {

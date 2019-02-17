@@ -6,3 +6,35 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+
+.noGuttersP {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.noGuttersEX {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 264px;
+    
+}
+
+.noGuttersED {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 264px;
+    
+}
+
+.portfolioRow {
+    background-image: url(http://i63.tinypic.com/2vsjn7t.jpg);
+    
+    background-position: center;
+}
+
+
+
+/* topography - http://i63.tinypic.com/2vsjn7t.jpg */
+
+/* brickwall - http://i68.tinypic.com/ndedy.jpg */

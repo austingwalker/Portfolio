@@ -1,12 +1,13 @@
 .nameBioBox {
     /* border: 1px solid red; */
     height: 300px;
-    width:  100%x;
+    width:  714px;;
     float:left;
     
     padding-right:0;
     padding-left:0;
-    
+    overflow: hidden;
+    position: relative;
 
 }
 
@@ -16,6 +17,8 @@
     /* border-bottom: 1px solid red; */
     background: rgb(81, 80, 80);
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .bioBox {
@@ -24,6 +27,8 @@
     background: rgb(48, 45, 45);
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .aW {
@@ -31,10 +36,13 @@
     font-size: 50px;
     padding-left: 40px;
     font-family: 'Oswald', sans-serif;
+    
 }
 
 .bioP {
     padding: 20px;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
+    margin: 0;
+    
 }

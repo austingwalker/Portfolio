@@ -1,0 +1,37 @@
+
+.experienceBox {
+    
+    background: #ffcc00;
+    color: white;
+    background-position: left center;
+    height: 100%;
+    width:  100%;
+    float: left;
+    padding-left: 25px;
+    
+    
+}
+
+
+.experienceTitle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+
+}
+
+
+
+.jobs {
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.stone {
+    margin-top: 5px;
+}
+
+.rbi {
+    margin-top: 5px;
+}

@@ -4,10 +4,10 @@ import "./Boxes.css";
 const Boxes = props => (
     <div className="boxesBox">
         <div className="topBox">
-        <i class="fab fa-linkedin fa-3x"></i>
+        <i className="fab fa-linkedin fa-3x"></i>
         </div>
         <div className="bottomBox">
-        <i class="fab fa-github fa-3x"></i>
+        <i className="fab fa-github fa-3x"></i>
         </div>
     </div>
 );

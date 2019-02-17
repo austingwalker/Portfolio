@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "image": "https://via.placeholder.com/150",
+      "name": "House Manager",
+      "description": "Authentication app with administrator & client login capabilities",
+      "technologies": "Javascript, Node.js, SQL, Sequelize, Passport, Bcrypt",
+      "url": "https://austingwalker.github.io/4-Crystal-Collector/"
+    },
+    {
+      "id": 2,
+      "image": "https://via.placeholder.com/150",
+      "name": "Loteria Memoria",
+      "description": "Card memory game",
+      "technologies": "JavaScript & React",
+      "url": "https://austingwalker.github.io/Click-Game-React/"
+    },
+    {
+      "id": 3,
+      "image": "https://via.placeholder.com/150",
+      "name": "Baseball Coach Scraper",
+      "description": "Scraping, storing, retrieving, and displaying data using the MERN stack",
+      "technologies": "MERN",
+      "url": "https://gentle-mountain-82893.herokuapp.com/"
+      
+    },
+    {
+      "id": 4,
+      "image": "https://via.placeholder.com/150",
+      "name": "Volunteer Manager",
+      "description": "Database management system",
+      "technologies": "MERN",
+      "url": "https://fast-dawn-77381.herokuapp.com/"
+      
+    }
+  ]
+  
