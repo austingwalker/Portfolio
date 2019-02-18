@@ -24,16 +24,23 @@ class InfoModal extends React.Component {
   // color="info"
   // color="warning"
   // color="danger"
-  
+
 
   render() {
     return (
       <div>
         <Button className="infoButton" onClick={this.toggle}><i className="far fa-address-card fa-3x"></i><h5>Contact Info</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Resume</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Contact Info</ModalHeader>
           <ModalBody>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div className="infoBox">
+              <h2 className="infoTitle" ><strong>Contact Info</strong></h2>
+              <div className="information">
+                <h2 className="name" ><strong>Name:</strong>&nbsp;&nbsp;&nbsp;&nbsp;Austin Walker</h2>
+                <h2 className="email"><strong>Email:</strong>&nbsp;&nbsp;&nbsp;&nbsp;agwalker249@gmail.com</h2>
+                <h2 className="phone"><strong>Phone:</strong>&nbsp;&nbsp;&nbsp;&nbsp;(512) 468-8416</h2>
+              </div>
+            </div>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}

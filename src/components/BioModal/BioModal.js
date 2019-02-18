@@ -29,11 +29,14 @@ class BioModal extends React.Component {
   render() {
     return (
       <div>
-        <Button className="bioButton" onClick={this.toggle}>Bio</Button>
+        <Button className="bioButton" onClick={this.toggle}><i class="fas fa-book fa-3x"></i><h5>Bio</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Resume</ModalHeader>
+          <ModalHeader toggle={this.toggle}><strong>Bio</strong></ModalHeader>
           <ModalBody>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div className="bioBox">
+            <p className="bioP">Full Stack Web Developer able to build clean and fully functional websites and applications from the ground up. Skilled at blending systematic, methodical, and spatial thinking with creativity to produce desired results. Strong in a variety of work environments and pursues excellence in all aspects of a project.
+            </p>
+          </div>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}

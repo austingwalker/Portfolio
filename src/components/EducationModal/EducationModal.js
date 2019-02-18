@@ -24,16 +24,25 @@ class EducationModal extends React.Component {
   // color="info"
   // color="warning"
   // color="danger"
-  
+
 
   render() {
     return (
       <div>
-        <Button className="educationButton" onClick={this.toggle}>Education</Button>
+        <Button className="educationButton" onClick={this.toggle}><i class="fas fa-university fa-3x"></i><h5>Education</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Resume</ModalHeader>
+          <ModalHeader toggle={this.toggle}><strong>Education</strong></ModalHeader>
           <ModalBody>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div className="educationBox">
+          
+              <div className="schools">
+                <p className="texas"><small><b>University of Texas at Austin</b>  <li>Web Development Certificate</li></small></p>
+
+                <p className="txstate"><small><b>Texas State University</b>  <li>Bachelor of Science</li><li> Major in Geography</li><li> Minor in History</li> </small></p>
+
+                <p className="tt"><small><b>Texas Tech University</b>  <li>Undergraduate work</li></small></p>
+              </div>
+            </div>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
