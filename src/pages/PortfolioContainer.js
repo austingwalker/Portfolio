@@ -7,7 +7,7 @@ import PersonalInfo from "../components/PersonalInfo";
 import Footer from "../components/Footer";
 import Boxes from "../components/Boxes";
 import Info from "../components/Info";
-import Skills from "../components/Skills";
+import Jumbotron from "../components/Jumbotron";
 import BioModal from "../components/BioModal";
 import ResumeModal from "../components/ResumeModal";
 import InfoModal from "../components/InfoModal";
@@ -30,11 +30,13 @@ class Portfolio extends Component {
     return (
       <div>
         <Container className="containerBox" fluid>
-          <Row >
-            <Col className="noGutters"  ><Picture/></Col>
+         
+            {/* <Col className="noGutters"  ><Picture/></Col>
             <Col className="noGutters"  ><NameBio/></Col>
-            <Col className="noGutters"  ><Boxes/></Col>
-          </Row>
+            <Col className="noGutters"  ><Boxes/></Col> */}
+            
+              <Jumbotron/>
+           
 
           <Row className="portfolioRow">
             {/* <Col className="noGutters fullContentBox" md="8"> */}

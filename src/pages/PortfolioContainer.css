@@ -1,5 +1,7 @@
 .containerBox {
-    position: absolute;
+    background-image: url(http://i63.tinypic.com/2vsjn7t.jpg);
+    background-position: right;
+    
 }
 
 .noGutters {
@@ -27,13 +29,9 @@
     
 }
 
-.portfolioRow {
-    background-image: url(http://i63.tinypic.com/2vsjn7t.jpg);
-    /* background-size: cover; */
-    background-position: right;
-}
 
 .modalBox {
+    background: rgb(36, 33, 33);
     border: 1px solid gray;
     border-radius: 8px;
     align-items: center;
