@@ -8,9 +8,12 @@ import Footer from "../components/Footer";
 import Boxes from "../components/Boxes";
 import Info from "../components/Info";
 import Skills from "../components/Skills";
-import Resume from "../components/Resume";
-import Experience from "../components/Experience";
-import Education from "../components/Education";
+import BioModal from "../components/BioModal";
+import ResumeModal from "../components/ResumeModal";
+import InfoModal from "../components/InfoModal";
+import SkillsModal from "../components/SkillsModal";
+import ExperienceModal from "../components/ExperienceModal";
+import EducationModal from "../components/EducationModal";
 import "./PortfolioContainer.css";
 import portfolioItems from "../PortfolioItems.json";
 
@@ -18,7 +21,8 @@ import portfolioItems from "../PortfolioItems.json";
 
 class Portfolio extends Component {
   state = {
-    portfolioItems
+    portfolioItems,
+    
   };
 
 
@@ -36,7 +40,7 @@ class Portfolio extends Component {
             {/* <Col className="noGutters fullContentBox" md="8"> */}
             
             {this.state.portfolioItems.map(item => (
-              <Col className="noGuttersP" md="2">
+              <Col className="noGuttersP" >
               <Content
               key={item.id}
                     id={item.id}
@@ -50,33 +54,23 @@ class Portfolio extends Component {
             ))}
             
             {/* </Col> */}
-            
-            <Col className="noGutters" md="4">
-                  <PersonalInfo>
-                    <Row>
-                      <Col className="noGutters" md="7">
-                          <Info/>
-                      </Col>
-
-                      <Col className="noGutters" md="5">
-                          <Resume/>
-                      </Col>
-                    </Row>
-
-                    <Row>
-                        <Skills/>
-                    </Row>
-                    <Row>
-                      <Col className="noGuttersEX" md="6">
-                          <Experience/>
-                      </Col>
-
-                      <Col className="noGuttersED" md="6">
-                          <Education/>
-                      </Col>
-                    </Row>
-                </PersonalInfo>
+            <Col>
+              <div className="modalBox">
+                <Row>
+                  <ResumeModal/>
+                  <InfoModal/>
+                </Row>
+                <Row>
+                  <SkillsModal/>
+                  <ExperienceModal/>
+                </Row>
+                <Row>
+                  <EducationModal/>
+                  <BioModal/>
+                </Row>
+              </div>
             </Col>
+            
           </Row>
 
           <Row>

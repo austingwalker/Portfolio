@@ -1,0 +1,26 @@
+<Col className="noGutters" >
+                  <PersonalInfo>
+                    <Row>
+                      <Col className="noGutters" md="7">
+                          <Info/>
+                      </Col>
+
+                      <Col className="noGutters" md="5">
+                          <Resume/>
+                      </Col>
+                    </Row>
+
+                    <Row>
+                        <Skills/>
+                    </Row>
+                    <Row>
+                      <Col className="noGuttersEX" md="6">
+                          <Experience/>
+                      </Col>
+
+                      <Col className="noGuttersED" md="6">
+                          <Education/>
+                      </Col>
+                    </Row>
+                </PersonalInfo>
+            </Col>

@@ -33,6 +33,14 @@
     background-position: right;
 }
 
+.modalBox {
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 80%;
+    padding: 20px;
+}
+
 /* color star - http://i68.tinypic.com/1zyk80h.jpg */
 
 /* colo brickwall - http://i68.tinypic.com/16k3sr7.jpg */
