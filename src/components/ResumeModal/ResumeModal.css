@@ -1,5 +1,16 @@
+.resumeBox {
+    /* text-align: center */
+   
+}
+
 .resumeButton {
     background: #ff6600;
-    display: inline-block;
+    border: none;
+    height: 100px;
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 17.5px;
+    border-radius: 0px;
+   
    
 }

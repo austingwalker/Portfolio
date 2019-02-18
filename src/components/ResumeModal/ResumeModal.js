@@ -28,7 +28,7 @@ class ResumeModal extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="resumeBox">
         <Button className="resumeButton" onClick={this.toggle}>Resume</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Resume</ModalHeader>

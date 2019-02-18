@@ -1,5 +1,11 @@
 .educationButton {
-    background: #00cc99;
-    display: inline-block;
+    background: #ffcc00;
+    border: none;
+    height: 100px;
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 17.5px;
+    border-radius: 0px;
    
 }
+

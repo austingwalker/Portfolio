@@ -42,7 +42,7 @@ class Portfolio extends Component {
             {this.state.portfolioItems.map(item => (
               <Col className="noGuttersP" >
               <Content
-              key={item.id}
+                    key={item.id}
                     id={item.id}
                     image={item.image}
                     name={item.name}
@@ -56,15 +56,15 @@ class Portfolio extends Component {
             {/* </Col> */}
             <Col>
               <div className="modalBox">
-                <Row>
+                <Row className="modalRowOne">
                   <ResumeModal/>
                   <InfoModal/>
                 </Row>
-                <Row>
+                <Row className="modalRowTwo">
                   <SkillsModal/>
                   <ExperienceModal/>
                 </Row>
-                <Row>
+                <Row className="modalRowThree">
                   <EducationModal/>
                   <BioModal/>
                 </Row>

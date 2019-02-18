@@ -36,9 +36,15 @@
 .modalBox {
     border: 1px solid gray;
     border-radius: 8px;
+    align-items: center;
     margin-top: 20px;
-    height: 80%;
+    
     padding: 20px;
+    
+}
+
+.modalRowOne {
+    text-align: center;
 }
 
 /* color star - http://i68.tinypic.com/1zyk80h.jpg */
