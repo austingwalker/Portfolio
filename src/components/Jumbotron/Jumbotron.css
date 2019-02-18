@@ -1,15 +1,16 @@
 .jumbotron {
- margin-top: 20px;
- background: rgb(36, 33, 33);
- color: white;
+  margin-top: 0px; 
+ background: rgb(36, 33, 33); 
+color: black;
  height: 300px;
  position:relative;
- top: 0;
+ top: 20px;
  left: 0;
  border-radius: 8px;
- 
+ /* opacity: .5  */
 
  
+ /* background: url(http://i63.tinypic.com/2vsjn7t.jpg) */
  
 }
 
@@ -17,8 +18,11 @@
   position:absolute;
   top: 0;
   left: 0;
+  
  
-}
+} 
+
+
 
 .headshot {
   border: 5px ridge white;
@@ -26,39 +30,37 @@
   padding: 0;
   height: 260px; 
   width: 260px;
+  
   position: relative;
   top: 20px;
-  left: 50px;
+  left: 70px;
   z-index: 1;
-
   
-  
- 
   
 }
 
 .nameAndTitle {
-  width: 700px;
+  width: 500px;
+  color: white;
   margin-left: 0px;;
   margin-top: 150px;
   padding: 0;
   position: relative;
   top: 0;
   left: 0;
-  float:left;
   z-index: 2;
 }
 
 .linkButtons {
   position: relative;
-  top: 80px;
-  right: -10;
-  left: 70px;
-  float: left;
+  top: 5px;
+  right: 10;
+  left: 375px;
   z-index: 0;
 }
 
 hr {
+
   border-color: white;
 }
 
@@ -68,6 +70,8 @@ hr {
   height: 100px;
   width: 100px;
   margin-right: 0px;
+  margin-bottom: 80px;
+  margin-top: 10px;
   margin-left: 17.5px;
   border-radius: 0px;
  

@@ -30,16 +30,10 @@ class Portfolio extends Component {
     return (
       <div>
         <Container className="containerBox" fluid>
-         
-            {/* <Col className="noGutters"  ><Picture/></Col>
-            <Col className="noGutters"  ><NameBio/></Col>
-            <Col className="noGutters"  ><Boxes/></Col> */}
-            
-              <Jumbotron/>
-           
+
+          <Jumbotron/>
 
           <Row className="portfolioRow">
-            {/* <Col className="noGutters fullContentBox" md="8"> */}
             
             {this.state.portfolioItems.map(item => (
               <Col className="noGuttersP" >
@@ -50,7 +44,8 @@ class Portfolio extends Component {
                     name={item.name}
                     description={item.description}
                     technologies={item.technologies}
-                    url={item.url}
+                    deployedUrl={item.deployedUrl}
+                    githubRepo={item.githubRepo}
               />  
               </Col>
             ))}

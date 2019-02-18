@@ -29,7 +29,7 @@ class SkillsModal extends React.Component {
   render() {
     return (
       <div>
-        <Button className="skillsButton" onClick={this.toggle}>Skills</Button>
+        <Button className="skillsButton" onClick={this.toggle}><i className="fas fa-laptop fa-3x"></i><h5>Skills</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Skills</ModalHeader>
           <ModalBody>

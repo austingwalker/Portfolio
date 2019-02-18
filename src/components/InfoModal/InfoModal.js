@@ -29,7 +29,7 @@ class InfoModal extends React.Component {
   render() {
     return (
       <div>
-        <Button className="infoButton" onClick={this.toggle}>Info</Button>
+        <Button className="infoButton" onClick={this.toggle}><i className="far fa-address-card fa-3x"></i><h5>Contact Info</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Resume</ModalHeader>
           <ModalBody>
