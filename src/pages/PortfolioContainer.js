@@ -1,12 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from 'reactstrap';
-import Picture from "../components/Picture";
-import NameBio from "../components/NameBio";
 import Content from "../components/Content";
-import PersonalInfo from "../components/PersonalInfo";
 import Footer from "../components/Footer";
-import Boxes from "../components/Boxes";
-import Info from "../components/Info";
 import Jumbotron from "../components/Jumbotron";
 import BioModal from "../components/BioModal";
 import ResumeModal from "../components/ResumeModal";
@@ -16,6 +11,9 @@ import ExperienceModal from "../components/ExperienceModal";
 import EducationModal from "../components/EducationModal";
 import "./PortfolioContainer.css";
 import portfolioItems from "../PortfolioItems.json";
+import NavBar from "../components/NavBar";
+
+
 
 
 
@@ -29,14 +27,16 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
+       
+        <NavBar/>
         <Container className="containerBox" fluid>
 
-          <Jumbotron/>
+          {/* <Jumbotron/> */}
 
           <Row className="portfolioRow">
             
             {this.state.portfolioItems.map(item => (
-              <Col className="noGuttersP" >
+              <Col key={item.id} className="noGuttersP" >
               <Content
                     key={item.id}
                     id={item.id}
@@ -51,7 +51,7 @@ class Portfolio extends Component {
             ))}
             
             {/* </Col> */}
-            <Col>
+            {/* <Col>
               <div className="modalBox">
                 <Row className="modalRowOne">
                   <ResumeModal/>
@@ -66,7 +66,7 @@ class Portfolio extends Component {
                   <BioModal/>
                 </Row>
               </div>
-            </Col>
+            </Col> */}
             
           </Row>
 

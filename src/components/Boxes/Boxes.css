@@ -1,5 +1,5 @@
-.boxesBox {
-    /* border: 1px solid red; */
+/* .boxesBox {
+   
     height: 300px;
     width:  185px;
     float: left;
@@ -12,7 +12,6 @@
 .topBox {
     height: 50%;
     width:  100%;
-    /* border-bottom: 1px solid red; */
     background: rgb(48, 45, 45);
     color: white;
     text-align: center;
@@ -26,7 +25,7 @@
     color: white;
     text-align: center;
     padding-top: 50px;
-}
+} */
 
 
 

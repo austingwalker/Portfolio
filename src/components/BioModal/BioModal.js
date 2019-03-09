@@ -29,7 +29,7 @@ class BioModal extends React.Component {
   render() {
     return (
       <div>
-        <Button className="bioButton" onClick={this.toggle}><i class="fas fa-book fa-3x"></i><h5>Bio</h5></Button>
+        <Button className="bioButton" onClick={this.toggle}><i className="fas fa-book fa-3x"></i><h5>Bio</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}><strong>Bio</strong></ModalHeader>
           <ModalBody>

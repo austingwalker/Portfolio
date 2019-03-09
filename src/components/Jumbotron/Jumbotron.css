@@ -6,7 +6,8 @@ color: black;
  position:relative;
  top: 20px;
  left: 0;
- border-radius: 8px;
+ border-radius: 0px;
+ /* border-radius: 25px; */
  /* opacity: .5  */
 
  
@@ -22,9 +23,24 @@ color: black;
  
 } 
 
-
-
 .headshot {
+
+  margin-right: 0;
+  padding: 0;
+  height: 300px; 
+  width: 300px;
+  
+  /* position: relative;
+  top: 20px;
+  left: 70px; */
+  z-index: 1;
+  
+  
+}
+
+
+
+/* .headshot {
   border: 5px ridge white;
   margin-right: 0;
   padding: 0;
@@ -37,10 +53,10 @@ color: black;
   z-index: 1;
   
   
-}
+} */
 
 .nameAndTitle {
-  width: 500px;
+  width: 460px;
   color: white;
   margin-left: 0px;;
   margin-top: 150px;

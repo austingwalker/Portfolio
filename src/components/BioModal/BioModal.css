@@ -2,11 +2,11 @@
     background: #00cc99;
     border: none;
     height: 100px;
-    width: 100px;
-    margin-left: 0px;
-    margin-right: 10px;
+    width: 100%;
+    margin: 0px; 
     border-radius: 0px;
     padding-top: 15px;
+    
    
 }
 

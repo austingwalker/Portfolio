@@ -29,7 +29,7 @@ class ExperienceModal extends React.Component {
   render() {
     return (
       <div>
-        <Button className="experienceButton" onClick={this.toggle}><i class="fas fa-city fa-3x"></i><h5>Experience</h5></Button>
+        <Button className="experienceButton" onClick={this.toggle}><i className="fas fa-city fa-3x"></i><h5>Experience</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}><strong>Experience</strong></ModalHeader>
           <ModalBody>

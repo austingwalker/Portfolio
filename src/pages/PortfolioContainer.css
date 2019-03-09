@@ -1,3 +1,7 @@
+body {
+    background-image: url(http://i63.tinypic.com/2vsjn7t.jpg);
+    background-position: right;
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +13,7 @@
 }
 
 .containerBox {
-    background-image: url(http://i63.tinypic.com/2vsjn7t.jpg);
-    background-position: right;
+    
     
     /* topography = http://i63.tinypic.com/2vsjn7t.jpg */
     /* color wall = http://i68.tinypic.com/16k3sr7.jpg*/
