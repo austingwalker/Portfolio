@@ -18,13 +18,6 @@ class InfoModal extends React.Component {
     }));
   }
 
-  // color="danger"
-  // color="rimary"
-  // color="success"
-  // color="info"
-  // color="warning"
-  // color="danger"
-
 
   render() {
     return (
