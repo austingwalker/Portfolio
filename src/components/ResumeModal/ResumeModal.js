@@ -29,7 +29,7 @@ class ResumeModal extends React.Component {
   render() {
     return (
       <div className="resumeBox">
-        <Button className="resumeButton" href="#" target="_blank" rel='noreferrer noopener' ><i className="far fa-file fa-3x"></i><h5>Resume</h5></Button>
+        <Button className="resumeButton" href="http://www.keepandshare.com/doc22/view.php?id=108885&da=y" target="_blank" rel='noreferrer noopener' ><i className="far fa-file fa-3x"></i><h5>Resume</h5></Button>
       </div>
     );
   }

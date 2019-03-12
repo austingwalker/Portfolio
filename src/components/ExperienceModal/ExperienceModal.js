@@ -47,7 +47,6 @@ class ExperienceModal extends React.Component {
             </div>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
             <Button color="secondary" onClick={this.toggle}>Back to Home</Button>
           </ModalFooter>
         </Modal>
