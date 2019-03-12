@@ -12,8 +12,8 @@
       "id": 2,
       "image": "http://i64.tinypic.com/2irvw35.png",
       "name": "Portfolio Page",
-      "description": "Cutom built website",
-      "technologies": "React, Javascript",
+      "description": "Custom built website",
+      "technologies": "React, Javascript, Bootstrap, CSS",
       "deployedUrl": "https://austingwalker.github.io/Portfolio/",
       "githubRepo": "https://github.com/austingwalker/Portfolio"
     },
