@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css"
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import BioModal from "../BioModal";
 import ResumeModal from "../ResumeModal";
 import InfoModal from "../InfoModal";

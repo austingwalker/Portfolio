@@ -3,8 +3,8 @@
       "id": 1,
       "image": "http://i68.tinypic.com/dvhr0n.png",
       "name": "Volunteer Manager",
-      "description": "Database management system",
-      "technologies": "MERN",
+      "description": "Database management system.",
+      "technologies": "React, Javascript,  Bootstrap, reactstrap,  JSX,  Node.js, Express, MongoDB, Mongoose",
       "deployedUrl": "https://thawing-refuge-91413.herokuapp.com/",
       "githubRepo": "https://github.com/austingwalker/Volunteer-Manager-MERN" 
     },
@@ -12,8 +12,8 @@
       "id": 2,
       "image": "http://i64.tinypic.com/2irvw35.png",
       "name": "Portfolio Page",
-      "description": "Custom built website",
-      "technologies": "React, Javascript, Bootstrap, CSS",
+      "description": "Custom built website.",
+      "technologies": "React, Javascript, JSX, Bootstrap, reactstrap, CSS",
       "deployedUrl": "https://austingwalker.github.io/Portfolio/",
       "githubRepo": "https://github.com/austingwalker/Portfolio"
     },
@@ -21,8 +21,8 @@
       "id": 3,
       "image": "http://i63.tinypic.com/10e31nn.png",
       "name": "News Scrubber",
-      "description": "Scraping, storing, retrieving, and displaying data using the MERN stack",
-      "technologies": "MERN",
+      "description": "Scraping, storing, retrieving, and displaying data.",
+      "technologies": "React, Javascript, Bootstrap, reactstrap, JSX,  Node.js, Express, MongoDB, Mongoose",
       "deployedUrl": "https://murmuring-ridge-90992.herokuapp.com/",
       "githubRepo": "https://github.com/austingwalker/NewsArticle-Scrubber-MERN"
     },
@@ -30,8 +30,8 @@
       "id": 4,
       "image": "http://i64.tinypic.com/30rshh2.png",
       "name": "House Manager",
-      "description": "Authentication app with administrator & client login capabilities",
-      "technologies": "Javascript, Node.js, SQL, Sequelize, Passport, Bcrypt",
+      "description": "Authentication app with administrator & client login capabilities.",
+      "technologies": "Javascript, jQuery, Node.js, SQL, Sequelize, Passport, Bcrypt",
       "deployedUrl": "https://gentle-basin-74402.herokuapp.com/",
       "githubRepo": "https://github.com/austingwalker/HouseHold-Manager-App"
     },
@@ -39,7 +39,7 @@
       "id": 5,
       "image": "http://i67.tinypic.com/2l9o4g1.png",
       "name": "Loteria Memoria",
-      "description": "Card memory game",
+      "description": "Card memory game.",
       "technologies": "JavaScript & React",
       "deployedUrl": "https://austingwalker.github.io/Click-Game-React/",
       "githubRepo": "https://github.com/austingwalker/Click-Game-React"

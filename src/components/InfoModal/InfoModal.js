@@ -27,7 +27,6 @@ class InfoModal extends React.Component {
           <ModalHeader toggle={this.toggle}>Contact Info</ModalHeader>
           <ModalBody>
             <div className="infoBox">
-              <h2 className="infoTitle" ><strong>Contact Info</strong></h2>
               <div className="information">
                 <h2 className="name" ><strong>Name:</strong>&nbsp;&nbsp;&nbsp;Austin Walker</h2>
                 <h2 className="email"><strong>Email:</strong>&nbsp;&nbsp;agwalker249@gmail.com</h2>

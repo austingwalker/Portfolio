@@ -1,6 +1,6 @@
 import React from 'react';
 import "./ResumeModal.css";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button } from 'reactstrap';
 
 class ResumeModal extends React.Component {
   constructor(props) {
