@@ -12,25 +12,24 @@ body {
     background: transparent;
 }
 
-.containerBox {
+/* .containerBox {
     
     
-    /* topography = http://i63.tinypic.com/2vsjn7t.jpg */
-    /* color wall = http://i68.tinypic.com/16k3sr7.jpg*/
 }
 
 .noGutters {
     padding-left: 0px;
     padding-right: 0px;
-}
+} */
 
 .noGuttersP {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-content: center;
     
 }
 
-.noGuttersEX {
+/* .noGuttersEX {
     padding-left: 0px;
     padding-right: 0px;
     height: 264px;
@@ -42,10 +41,10 @@ body {
     padding-right: 0px;
     height: 264px;
     
-}
+} */
 
 
-.modalBox {
+/* .modalBox {
     background: rgb(36, 33, 33);
     border: 1px solid gray;
     border-radius: 8px;
@@ -58,12 +57,5 @@ body {
 
 .modalRowOne {
     text-align: center;
-}
+} */
 
-/* color star - http://i68.tinypic.com/1zyk80h.jpg */
-
-/* colo brickwall - http://i68.tinypic.com/16k3sr7.jpg */
-
-/* topography - http://i63.tinypic.com/2vsjn7t.jpg */
-
-/* brickwall - http://i68.tinypic.com/ndedy.jpg */

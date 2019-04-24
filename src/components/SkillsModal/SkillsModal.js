@@ -18,25 +18,23 @@ class SkillsModal extends React.Component {
     }));
   }
 
-  // color="danger"
-  // color="rimary"
-  // color="success"
-  // color="info"
-  // color="warning"
-  // color="danger"
 
 
   render() {
     return (
       <div>
-        <Button className="skillsButton" onClick={this.toggle}><i className="fas fa-laptop fa-3x"></i><h5>Skills</h5></Button>
+        <Button className="skillsButton" onClick={this.toggle}><i className="fas fa-laptop fa-3x"></i><h5>Technologies</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}><strong>Professional Skills</strong></ModalHeader>
+          <ModalHeader toggle={this.toggle}><strong>Technologies and Skills</strong></ModalHeader>
           <ModalBody>
             <div className="titleAndSkills">
               
               <div className="skillsBox">
-                <p className="listedSkills">HTML | CSS | Bootstrap | Javascript | jQuery | Node.js | Express | SQL | Sequelize | Handlebars |  MongoDB | Mongoose | Passport.js |  MVC | React | npm | yarn | Git | Github | Heroku | SEO | APIs - consuming | APIs - creating </p>
+              <h5>Technologies</h5>
+              <p className="listedSkills">React  | Javascript | jQuery | JSX |  Node.js | NPM | YARN | Postman | Express | SQL | Sequelize | MySQL |  MongoDB | Mongoose | Robo 3T | HTML | CSS | Bootstrap  | Handlebars </p>
+              <br/>
+              <h5>Skills</h5>
+                <p className="listedSkills">REST APIs | JSON | SEO | AGILE | MVC | Git | GitHub | Heroku </p>
               </div>
             </div>
           </ModalBody>
