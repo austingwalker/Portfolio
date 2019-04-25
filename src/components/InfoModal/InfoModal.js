@@ -24,7 +24,7 @@ class InfoModal extends React.Component {
       <div>
         <Button className="infoButton" onClick={this.toggle}><i className="far fa-address-card fa-3x"></i><h5>Contact Info</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Contact Info</ModalHeader>
+          <ModalHeader className="infoHeader" toggle={this.toggle}>Contact Info</ModalHeader>
           <ModalBody>
             <div className="infoBox">
               <div className="information">
@@ -35,7 +35,7 @@ class InfoModal extends React.Component {
             </div>
           </ModalBody>
           <ModalFooter>
-            <Button color="secondary" onClick={this.toggle}>Back to Home</Button>
+            <Button className="infoBtn" onClick={this.toggle}>Back to Home</Button>
           </ModalFooter>
         </Modal>
       </div>

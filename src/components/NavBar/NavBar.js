@@ -3,6 +3,7 @@ import "./NavBar.css"
 import { Row, Col } from 'reactstrap';
 import BioModal from "../BioModal";
 import ResumeModal from "../ResumeModal";
+
 import InfoModal from "../InfoModal";
 import SkillsModal from "../SkillsModal";
 import ExperienceModal from "../ExperienceModal";

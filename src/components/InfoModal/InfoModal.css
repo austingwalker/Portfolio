@@ -7,12 +7,21 @@
     border-radius: 0px;
     padding-top: 15px;
     
-    
-    
 }
 
 
 h5{
     font-size: 15px;
     margin-top: 5px;
+}
+
+.infoHeader {
+    color: white;
+    background: #33adff;
+    border-radius: 0px;
+}
+
+.infoBtn {
+    color: white;
+    background: #33adff;
 }

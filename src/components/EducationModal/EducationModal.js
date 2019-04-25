@@ -31,7 +31,7 @@ class EducationModal extends React.Component {
       <div>
         <Button className="educationButton" onClick={this.toggle}><i className="fas fa-university fa-3x"></i><h5>Education</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}><strong>Education</strong></ModalHeader>
+          <ModalHeader className="educationHeader"  toggle={this.toggle}><strong>Education</strong></ModalHeader>
           <ModalBody>
             <div className="educationBox">
           
@@ -45,7 +45,7 @@ class EducationModal extends React.Component {
             </div>
           </ModalBody>
           <ModalFooter>
-            <Button color="secondary" onClick={this.toggle}>Back to Home</Button>
+            <Button className="educationBtn" onClick={this.toggle}>Back to Home</Button>
           </ModalFooter>
         </Modal>
       </div>

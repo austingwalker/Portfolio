@@ -24,7 +24,7 @@ class BioModal extends React.Component {
       <div>
         <Button className="bioButton" onClick={this.toggle}><i className="fas fa-book fa-3x"></i><h5>Bio</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}><strong>Bio</strong></ModalHeader>
+          <ModalHeader className="bioHeader"  toggle={this.toggle}><strong>Bio</strong></ModalHeader>
           <ModalBody>
           <div className="bioBox">
             <p className="bioP">I love development because I enjoyed creating things, solving problems, serving people using technology, and making life more efficient. 
@@ -40,7 +40,7 @@ class BioModal extends React.Component {
           </div>
           </ModalBody>
           <ModalFooter>
-            <Button color="secondary" onClick={this.toggle}>Back to Home</Button>
+            <Button className="bioBtn"  onClick={this.toggle}>Back to Home</Button>
           </ModalFooter>
         </Modal>
       </div>

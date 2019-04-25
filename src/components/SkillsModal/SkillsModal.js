@@ -25,7 +25,7 @@ class SkillsModal extends React.Component {
       <div>
         <Button className="skillsButton" onClick={this.toggle}><i className="fas fa-laptop fa-3x"></i><h5>Technologies</h5></Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}><strong>Technologies and Skills</strong></ModalHeader>
+          <ModalHeader className="skillsHeader" toggle={this.toggle}><strong>Technologies and Skills</strong></ModalHeader>
           <ModalBody>
             <div className="titleAndSkills">
               
@@ -40,7 +40,7 @@ class SkillsModal extends React.Component {
           </ModalBody>
           <ModalFooter>
             
-            <Button color="secondary" onClick={this.toggle}>Back to Home</Button>
+            <Button className="skillsBtn" onClick={this.toggle}>Back to Home</Button>
           </ModalFooter>
         </Modal>
       </div>
