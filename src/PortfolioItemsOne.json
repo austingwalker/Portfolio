@@ -34,6 +34,78 @@
       "technologies": "JavaScript & React",
       "deployedUrl": "https://austingwalker.github.io/Click-Game-React/",
       "githubRepo": "https://github.com/austingwalker/Click-Game-React"
+    },
+    {
+      "id": 5,
+      "image": "http://i68.tinypic.com/10o396r.png",
+      "name": "Burger Bar",
+      "description": "Restaurant ordering app.",
+      "technologies": "HTML, CSS, Handlebars, JavaScript, Node.js, Express, SQL, Sequelize",
+      "deployedUrl": "https://nameless-lake-16702.herokuapp.com/",
+      "githubRepo": "https://github.com/austingwalker/BurgerApp-Sequelize" 
+    }, 
+    {
+      "id": 6,
+      "image": "http://i63.tinypic.com/2ecdchs.png",
+      "name": "Friend Finder",
+      "description": "Compares user answers to a list of computer character's answers then determines the best match.",
+      "technologies": "HTML, CSS, Bootstrap, JavaScript, JQuery, API's, JSON, Express",
+      "deployedUrl": "https://gentle-mountain-82893.herokuapp.com/",
+      "githubRepo": "https://github.com/austingwalker/9-FriendFinder-app" 
+    },
+    {
+      "id": 7,
+      "image": "http://i63.tinypic.com/wit2r6.png",
+      "name": "Star Wars Character Create",
+      "description": "Search, view, and add your own Star Wars character.",
+      "technologies": "HTML, CSS, Bootstrap, JavaScript, JQuery, API's, JSON, Express",
+      "deployedUrl": "https://obscure-shelf-29585.herokuapp.com/",
+      "githubRepo": "https://github.com/austingwalker/StarWars-App"
+    },
+    {
+      "id": 8,
+      "image": "http://i67.tinypic.com/20jpsuq.png",
+      "name": "Resturant Seating Chart App",
+      "description": "Customers can reserve a table but there are only five spots available at a time. Once five tables are in use the customer will be placed on the waiting list.",
+      "technologies": "HTML, CSS, Bootstrap, JavaScript, JQuery, API's, JSON, Express",
+      "deployedUrl": "https://desolate-journey-44582.herokuapp.com/",
+      "githubRepo": "https://github.com/austingwalker/Restaurant-app"
+    },
+    {
+      "id": 9,
+      "image": "http://i65.tinypic.com/m9tv8k.png",
+      "name": "Gif Generator",
+      "description": "Uses giphy.com API to make ajax calls then receive and manipulate JSON data.",
+      "technologies": "HTML, CSS, Bootstrap, Javascript, JQuery",
+      "deployedUrl": "https://austingwalker.github.io/6-gifTastic/",
+      "githubRepo": "https://github.com/austingwalker/6-gifTastic"
+    },
+    {
+      "id": 10,
+      "image": "http://i65.tinypic.com/11u9c7k.png",
+      "name": "Crystal Collector",
+      "description": "Generates random numbers, tracks user clicks & totals, compares user scores to computer score, and tracks wins & losses.",
+      "technologies": "HTML, CSS, Bootstrap, Javascript",
+      "deployedUrl": "https://austingwalker.github.io/4-Crystal-Collector/",
+      "githubRepo": "https://github.com/austingwalker/4-Crystal-Collector"
+    },
+    {
+      "id": 11,
+      "image": "http://i65.tinypic.com/24xp454.png",
+      "name": "JQuery Calculator",
+      "description": "Comprised of variables, click handlers, functions, and if/else statements to create a calculator.",
+      "technologies": "HTML, CSS, Bootstrap, JavaScript, JQuery",
+      "deployedUrl": "https://austingwalker.github.io/jQuery-Calculator/",
+      "githubRepo": "https://github.com/austingwalker/jQuery-Calculator" 
+    },
+    {
+      "id": 12,
+      "image": "http://i65.tinypic.com/259ddg3.png",
+      "name": "Hangman",
+      "description": "Austin, TX themed hangman game",
+      "technologies": "Uses vanilla JavaScript to choose a random string in an array and compare user guessed letters to letters in the chosen string.",
+      "deployedUrl": "https://austingwalker.github.io/3-Hangman/",
+      "githubRepo": "https://github.com/austingwalker/3-Hangman"
     }
    
   ]
