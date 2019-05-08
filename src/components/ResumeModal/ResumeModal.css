@@ -34,7 +34,11 @@ iframe {
 
     iframe {
         width: 250px;
+    }
+
+    .iframeBox {
         -webkit-overflow-scrolling: touch;
+  	    overflow-y: scroll;
     }
   
 

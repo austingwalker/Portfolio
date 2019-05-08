@@ -33,9 +33,9 @@ class ResumeModal extends React.Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-lg">
           <ModalHeader className="resumeHeader" toggle={this.toggle}><strong></strong></ModalHeader>
           <ModalBody >
-            <div className="titleAndSkills">
+            <div className="iframeBox">
               
-            <iframe className="iframeBox" src="https://docs.google.com/document/u/1/d/e/2PACX-1vRr-TpJg1esEcOklHJpNb8r7BFp8RaCDwu2nvIio76rTRXrTgbZYpe3RX4qFl4DeEd8F8Jr6jwd9NUd/pub" ></iframe>
+            <iframe src="https://docs.google.com/document/u/1/d/e/2PACX-1vRr-TpJg1esEcOklHJpNb8r7BFp8RaCDwu2nvIio76rTRXrTgbZYpe3RX4qFl4DeEd8F8Jr6jwd9NUd/pub" ></iframe>
         
             </div>
           </ModalBody>
