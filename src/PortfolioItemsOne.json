@@ -1,10 +1,10 @@
 [
     {
       "id": 1,
-      "image": "http://i68.tinypic.com/dvhr0n.png",
+      "image": "http://i63.tinypic.com/2lnbkag.png",
       "name": "Volunteer Manager",
-      "description": "Database management system.",
-      "technologies": "React, Javascript,  Bootstrap, reactstrap,  JSX,  Node.js, Express, MongoDB, Mongoose",
+      "description": "Web application developed for the purpose of managing volunteers at a local non-profit.",
+      "technologies": "React, Javascript, JSX, Bootstrap, reactstrap, axios, react-router-dom, Node.js, Express, MongoDB, Mongoose",
       "deployedUrl": "https://thawing-refuge-91413.herokuapp.com/",
       "githubRepo": "https://github.com/austingwalker/Volunteer-Manager-MERN" 
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "image": "http://i63.tinypic.com/10e31nn.png",
       "name": "News Scrubber",
-      "description": "Scraping, storing, retrieving, and displaying data.",
+      "description": "Scrapes, stores, retrieves, and displays data.",
       "technologies": "React, Javascript, Bootstrap, reactstrap, JSX,  Node.js, Express, MongoDB, Mongoose",
       "deployedUrl": "https://murmuring-ridge-90992.herokuapp.com/",
       "githubRepo": "https://github.com/austingwalker/NewsArticle-Scrubber-MERN"
@@ -48,7 +48,7 @@
       "id": 6,
       "image": "http://i63.tinypic.com/2ecdchs.png",
       "name": "Friend Finder",
-      "description": "Compares user answers to a list of computer character's answers then determines the best match.",
+      "description": "Compares user answers to a list of computer character's answers to determines the best match.",
       "technologies": "HTML, CSS, Bootstrap, JavaScript, JQuery, API's, JSON, Express",
       "deployedUrl": "https://gentle-mountain-82893.herokuapp.com/",
       "githubRepo": "https://github.com/austingwalker/9-FriendFinder-app" 
@@ -75,7 +75,7 @@
       "id": 9,
       "image": "http://i65.tinypic.com/m9tv8k.png",
       "name": "Gif Generator",
-      "description": "Uses giphy.com API to make ajax calls then receive and manipulate JSON data.",
+      "description": "Uses giphy.com API to make ajax calls and then receive and manipulate JSON data.",
       "technologies": "HTML, CSS, Bootstrap, Javascript, JQuery",
       "deployedUrl": "https://austingwalker.github.io/6-gifTastic/",
       "githubRepo": "https://github.com/austingwalker/6-gifTastic"
