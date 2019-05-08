@@ -33,9 +33,9 @@ iframe {
     }
 
     iframe {
-        /* width: 250px; */
+        width: 370px;
         height: 100%;
-        width: 100%;
+        /* width: 100%; */
     }
 
     .iframeBox {
