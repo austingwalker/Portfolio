@@ -95,22 +95,22 @@ color:white;
 }
 
 .modalBtnRow {
-    width: 12.5%;
+    width: 25%;
     margin: 0px;
     padding: 0px;
 
 }
 
-.modalNav {
+/* .modalNav {
     width: 100%
-}
+} */
 
 
 
-.modalRow {
+/* .modalRow {
     width: 100%;
     float: left;
-}
+}  */
 
 .colRows {
     background-color: rgb(36, 33, 33);
@@ -142,3 +142,44 @@ color:white;
     height: 300px;
     width: 375px;
 }
+
+.modalRowOne {
+    padding: 0px;
+    float: left;
+}
+
+.modalRowTwo {
+    padding: 0px;
+    float: left;
+}
+
+@media screen and (max-width: 375px) {
+    /* The body's bg color will be #333 */
+    .navContainer {
+        width: 100%;
+        margin: 0px;
+    }
+
+    
+    .austinW {
+        
+        font-size: 30px;
+        padding: 35px;
+    }
+
+    .title {
+        font-size: 20px;
+        padding: 35px;
+    }
+
+    .modalRowOne {
+        width: 500px;
+    }
+    
+    .modalRowTwo {
+        width: 376px;
+    }
+
+    
+
+  }

@@ -19,3 +19,19 @@
     color: white;
     background: #ff6600;
 }
+
+iframe {
+    width: 100%;
+    height: 1000px;
+}
+
+@media screen and (max-width: 375px) {
+    .containerBox {
+        padding: 0px;
+        margin: 0px;
+    
+    }
+
+  
+
+  }

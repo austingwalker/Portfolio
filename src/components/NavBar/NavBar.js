@@ -55,6 +55,8 @@ const NavBar = () => (
       </Row>
       
       <Row className="modalRow">
+        
+        <Col className="modalRowOne" md="6">
         <nav className="modalNav">
           <div className="navbar-brand modalBtnRow">
             <ResumeModal/>
@@ -68,6 +70,10 @@ const NavBar = () => (
           <div className="navbar-brand modalBtnRow">
             <ExperienceModal/>
           </div>
+          </nav>
+          </Col>
+          <Col className="modalRowTwo" md="6">
+          <nav className="modalNav">
           <div className="navbar-brand modalBtnRow">
             <EducationModal/>
           </div>
@@ -82,7 +88,9 @@ const NavBar = () => (
           <a className="logo" href="https://www.linkedin.com/in/austin-walker-aa0aab129/" target="_blank" rel='noreferrer noopener'> <button type="button" className="btn linkedIn" ><i className="fab fa-linkedin fa-3x "></i><h5 className="logoTitle">LinkedIn</h5></button></a>
             
           </div>
-        </nav>
+          </nav>
+          </Col>
+        
     
       </Row>
       </Col>

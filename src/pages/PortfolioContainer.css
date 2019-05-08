@@ -12,15 +12,7 @@ body {
     background: transparent;
 }
 
-/* .containerBox {
-    
-    
-}
 
-.noGutters {
-    padding-left: 0px;
-    padding-right: 0px;
-} */
 
 .noGuttersP {
     padding-left: 0px;
@@ -29,33 +21,12 @@ body {
     
 }
 
-/* .noGuttersEX {
-    padding-left: 0px;
-    padding-right: 0px;
-    height: 264px;
+@media screen and (max-width: 375px) {
+    .containerBox {
+        padding: 0px;
+        margin: 0px;
     
-}
+    }
 
-.noGuttersED {
-    padding-left: 0px;
-    padding-right: 0px;
-    height: 264px;
-    
-} */
-
-
-/* .modalBox {
-    background: rgb(36, 33, 33);
-    border: 1px solid gray;
-    border-radius: 8px;
-    align-items: center;
-    margin-top: 20px;
-    
-    padding: 20px;
-    
-}
-
-.modalRowOne {
-    text-align: center;
-} */
+  }
 

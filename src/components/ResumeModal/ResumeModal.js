@@ -2,12 +2,13 @@ import React from 'react';
 import "./ResumeModal.css";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
-const styles = {
-  iframe: {
-    width: 770,
-    height: 550,
-  }
-};
+// const styles = {
+//   iframe: {
+//     width: 770,
+//     height: 550,
+//   }
+// };
+// style={styles.iframe}
 
 class ResumeModal extends React.Component {
   constructor(props) {
@@ -34,7 +35,7 @@ class ResumeModal extends React.Component {
           <ModalBody >
             <div className="titleAndSkills">
               
-            <iframe style={styles.iframe}src="https://docs.google.com/document/u/1/d/e/2PACX-1vRr-TpJg1esEcOklHJpNb8r7BFp8RaCDwu2nvIio76rTRXrTgbZYpe3RX4qFl4DeEd8F8Jr6jwd9NUd/pub" ></iframe>
+            <iframe className="iframeBox" src="https://docs.google.com/document/u/1/d/e/2PACX-1vRr-TpJg1esEcOklHJpNb8r7BFp8RaCDwu2nvIio76rTRXrTgbZYpe3RX4qFl4DeEd8F8Jr6jwd9NUd/pub" ></iframe>
         
             </div>
           </ModalBody>
