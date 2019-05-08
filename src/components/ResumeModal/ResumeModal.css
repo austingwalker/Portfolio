@@ -33,12 +33,16 @@ iframe {
     }
 
     iframe {
-        width: 250px;
+        /* width: 250px; */
+        height: 100%;
+        width: 100%;
     }
 
     .iframeBox {
         -webkit-overflow-scrolling: touch;
-  	    overflow-y: scroll;
+          overflow-y: scroll;
+          height: 100%;
+          width: 100%;
     }
   
 
