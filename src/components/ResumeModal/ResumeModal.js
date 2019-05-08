@@ -30,7 +30,7 @@ class ResumeModal extends React.Component {
     return (
       <div>
         <Button className="resumeButton" onClick={this.toggle}><i className="far fa-file fa-3x"></i><h5>Resume</h5></Button>
-        <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-lg">
+        <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-lg modalBox">
           <ModalHeader className="resumeHeader" toggle={this.toggle}><strong></strong></ModalHeader>
           <ModalBody className="modalBody">
             <div className="iframeBox">

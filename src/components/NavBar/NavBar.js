@@ -27,7 +27,7 @@ const NavBar = () => (
       <nav className="austinWBox">
         
         <div className="nameBox">
-          <h1 className="austinW">| Austin Walker |</h1>   
+          <h1 className="austinW">Austin Walker</h1>   
           
         </div>
         
