@@ -153,7 +153,7 @@ color:white;
     float: left;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     /* The body's bg color will be #333 */
     .navContainer {
         width: 100%;
@@ -172,13 +172,13 @@ color:white;
         padding: 35px;
     }
 
-    .modalRowOne {
+    /* .modalRowOne {
         width: 500px;
     }
     
     .modalRowTwo {
         width: 376px;
-    }
+    } */
 
     
 
