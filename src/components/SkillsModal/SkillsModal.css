@@ -20,3 +20,11 @@
     color: white;
     background: rgb(171, 91, 182);
 }
+
+@media screen and (max-width: 375px) {
+
+    h5{
+        font-size: 13px;
+    }
+
+  }
