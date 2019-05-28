@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./NavBar.css"
 import { Row, Col } from 'reactstrap';
 import BioModal from "../BioModal";
@@ -28,30 +29,17 @@ const NavBar = () => (
         
         <div className="nameBox">
           <h1 className="austinW">Austin Walker</h1>   
-          
         </div>
-        
-      
       </nav>
-      {/* <div className="boxOne">
-          <i className="fab fa-linkedin fa-3x linkedIn"></i>   
-        </div> */}
       
       </Row>
       <Row className="navRowTwo">
         <nav className="titleBox">
           <div className="fswdBox" href="/">
-            <h1 className="title">Full Stack Web Developer</h1> 
-            
+            <h1 className="title">Full Stack Web Developer</h1>  
           </div>
-          
-          
-         
         </nav>
-        {/* <div className="boxTwo">
-            <i className="fab fa-github fa-3x github"></i>
-          </div> */}
-       
+  
       </Row>
       
       <Row className="modalRow">
@@ -61,6 +49,10 @@ const NavBar = () => (
           <div className="navbar-brand modalBtnRow">
             <ResumeModal/>
           </div>
+          {/* --------Work in progress ------------ */}
+          {/* <div className="navbar-brand modalBtnRow">
+          <Link to="/resume"><button type="button" class="btn btn-primary">Resume</button> </Link>
+          </div> */}
           <div className="navbar-brand modalBtnRow">
             <InfoModal/>
           </div>
