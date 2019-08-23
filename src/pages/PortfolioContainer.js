@@ -13,16 +13,12 @@ class Portfolio extends Component {
     
   };
 
-
   render() {
     return (
       <div>
-       
         <NavBar/>
         <Container className="containerBox" fluid>
-
           <Row className="portfolioRow">
-            
             {this.state.portfolioItemsOne.map(item => (
               <Col key={item.id} className="noGuttersP" >
               <Content
@@ -37,9 +33,7 @@ class Portfolio extends Component {
               />  
               </Col>
             ))}   
-            
           </Row>
-
           <Row>
             <Col className="noGutters" md="12"><Footer/></Col>
           </Row>

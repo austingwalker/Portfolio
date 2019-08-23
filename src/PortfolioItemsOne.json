@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "http://i63.tinypic.com/2lnbkag.png",
+      "image": "/assets/images/volunteerManager.png",
       "name": "Volunteer Manager",
       "description": "Web application developed for the purpose of managing volunteers at a local non-profit.",
       "technologies": "React, Javascript, JSX, Bootstrap, reactstrap, axios, react-router-dom, Node.js, Express, MongoDB, Mongoose",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "image": "http://i63.tinypic.com/2ikegc6.png",
+      "image": "/assets/images/URL_saver.png",
       "name": "URL_saver",
       "description": "Uses a MySQL database and the one-to-many relationship in order to create files with saved URL’s .",
       "technologies": "React, Javascript, JSX, Bootstrap, Axios,  Node.js, Express, MySQL, Sequelize",
@@ -19,7 +19,7 @@
     },
     {
       "id": 3,
-      "image": "http://i63.tinypic.com/10e31nn.png",
+      "image": "/assets/images/newsScrubber.png",
       "name": "News Scrubber",
       "description": "Scrapes, stores, retrieves, and displays data.",
       "technologies": "React, Javascript, Bootstrap, reactstrap, JSX,  Node.js, Express, MongoDB, Mongoose",
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "image": "http://i64.tinypic.com/30rshh2.png",
+      "image": "/assets/images/houseManager.png",
       "name": "House Manager",
       "description": "Authentication app with administrator & client login capabilities.",
       "technologies": "Javascript, jQuery, Handlebars, Node.js, SQL, Sequelize, Passport, Bcrypt",
@@ -37,7 +37,7 @@
     },
     {
       "id": 5,
-      "image": "http://i67.tinypic.com/2l9o4g1.png",
+      "image": "/assets/images/loteriaMemoria.png",
       "name": "Loteria Memoria",
       "description": "Card memory game.",
       "technologies": "JavaScript & React",
@@ -46,7 +46,7 @@
     },
     {
       "id": 6,
-      "image": "http://i68.tinypic.com/10o396r.png",
+      "image": "/assets/images/BurgerBar.png",
       "name": "Burger Bar",
       "description": "Restaurant ordering app.",
       "technologies": "HTML, CSS, Handlebars, JavaScript, Node.js, Express, SQL, Sequelize",
@@ -55,7 +55,7 @@
     }, 
     {
       "id": 7,
-      "image": "http://i63.tinypic.com/2ecdchs.png",
+      "image": "/assets/images/friend_finder.png",
       "name": "Friend Finder",
       "description": "Compares user answers to a list of computer character's answers to determines the best match.",
       "technologies": "HTML, CSS, Bootstrap, JavaScript, JQuery, API's, JSON, Express",
@@ -64,7 +64,7 @@
     },
     {
       "id": 8,
-      "image": "http://i63.tinypic.com/wit2r6.png",
+      "image": "/assets/images/star_wars.png",
       "name": "Star Wars Character Create",
       "description": "Search, view, and add your own Star Wars character.",
       "technologies": "HTML, CSS, Bootstrap, JavaScript, JQuery, API's, JSON, Express",
@@ -73,7 +73,7 @@
     },
     {
       "id": 9,
-      "image": "http://i67.tinypic.com/20jpsuq.png",
+      "image": "/assets/images/resturant_app.png",
       "name": "Resturant Seating Chart App",
       "description": "Customers can reserve a table but there are only five spots available at a time. Once five tables are in use the customer will be placed on the waiting list.",
       "technologies": "HTML, CSS, Bootstrap, JavaScript, JQuery, API's, JSON, Express",
@@ -82,7 +82,7 @@
     },
     {
       "id": 10,
-      "image": "http://i65.tinypic.com/m9tv8k.png",
+      "image": "/assets/images/gif_generator.png",
       "name": "Gif Generator",
       "description": "Uses giphy.com API to make ajax calls and then receive and manipulate JSON data.",
       "technologies": "HTML, CSS, Bootstrap, Javascript, JQuery",
@@ -91,7 +91,7 @@
     },
     {
       "id": 11,
-      "image": "http://i65.tinypic.com/11u9c7k.png",
+      "image": "/assets/images/crystalCollector.png",
       "name": "Crystal Collector",
       "description": "Generates random numbers, tracks user clicks & totals, compares user scores to computer score, and tracks wins & losses.",
       "technologies": "HTML, CSS, Bootstrap, Javascript",
@@ -100,7 +100,7 @@
     },
     {
       "id": 12,
-      "image": "http://i65.tinypic.com/24xp454.png",
+      "image": "/assets/images/jquery_calculator.png",
       "name": "JQuery Calculator",
       "description": "Comprised of variables, click handlers, functions, and if/else statements to create a calculator.",
       "technologies": "HTML, CSS, Bootstrap, JavaScript, JQuery",
@@ -109,7 +109,7 @@
     },
     {
       "id": 13,
-      "image": "http://i65.tinypic.com/259ddg3.png",
+      "image": "/assets/images/Hangman.png",
       "name": "Hangman",
       "description": "Austin, TX themed hangman game",
       "technologies": "Uses vanilla JavaScript to choose a random string in an array and compare user guessed letters to letters in the chosen string.",
