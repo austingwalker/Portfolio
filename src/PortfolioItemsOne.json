@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "/assets/images/volunteerManager.png",
+      "image": "https://austingwalker.github.io/Portfolio/assets/images/volunteerManager.png",
       "name": "Volunteer Manager",
       "description": "Web application developed for the purpose of managing volunteers at a local non-profit.",
       "technologies": "React, Javascript, JSX, Bootstrap, reactstrap, axios, react-router-dom, Node.js, Express, MongoDB, Mongoose",
