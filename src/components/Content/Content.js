@@ -4,7 +4,9 @@ import "./Content.css";
 const Content = props => (
 
     <div className="card portfolioDisplay">
-            <img className="card-img-top" src={props.image} alt="App-Pic"/>
+        
+            {/* <img className="card-img-top" src={props.image} alt="App-Pic"/> */}
+            <img className="card-img-top" src={process.env.PUBLIC_URL + props.image} alt="App-Pic"/>
         <div className="card-body">
             <h5 className="card-title"><b>{props.name}</b></h5>
             <p className="card-text"><small><b>Description:</b> {props.description}</small></p>
