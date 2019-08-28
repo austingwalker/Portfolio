@@ -17,7 +17,8 @@ const NavBar = () => (
     <Col md="4" className="profilePicColOutside" >
     <Col className="profilePicColInside">
       <div className="profilePic">
-        <img className="headshot" src="/assets/images/Austin_Walker.jpg" alt="headshot"/>
+        <img className="headshot" src= {process.env.PUBLIC_URL + "/assets/images/Austin_Walker.jpg"} alt="headshot"/>
+       
       </div>
     </Col>
     </Col>
