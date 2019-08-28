@@ -63,7 +63,7 @@ const NavBar = () => (
                 <BioModal/>
               </div> 
               <div className="navbar-brand modalBtnRow">
-                <a className="logo" href="https://github.com/austingwalker?tab=repositories" target="_blank" rel='noreferrer noopener'><button type="button" className="btn github"><i className="fab fa-github fa-3x"></i><h5 className="logoTitle">GitHub</h5></button></a>
+                <a className="logo" href="https://github.com/austingwalker" target="_blank" rel='noreferrer noopener'><button type="button" className="btn github"><i className="fab fa-github fa-3x"></i><h5 className="logoTitle">GitHub</h5></button></a>
               </div>
               <div className="navbar-brand modalBtnRow" >
                 <a className="logo" href="https://www.linkedin.com/in/austin-walker-aa0aab129/" target="_blank" rel='noreferrer noopener'> <button type="button" className="btn linkedIn" ><i className="fab fa-linkedin fa-3x "></i><h5 className="logoTitle">LinkedIn</h5></button></a>

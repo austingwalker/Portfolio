@@ -113,17 +113,14 @@ color:white;
 }
 
 .profilePicColOutside {
-   
     margin: 0px;
     padding: 0px;
 }
 
 .profilePicColInside {
-   
     margin: 0px;
     padding: 0px;
-      background-image: url("/assets/images/Austin_Walker.jpg");
-      
+      background-image: url("https://austingwalker.github.io/Portfolio/assets/images/Austin_Walker.jpg");
       background-size: cover;
       z-index: 10;
      
