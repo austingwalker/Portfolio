@@ -1,5 +1,5 @@
 body {
-    background-image: url(/assets/images/portfolio_topography.png);
+    background-image: url("/assets/images/portfolio_topography.png");
     background-position: right;
 }
 * {
