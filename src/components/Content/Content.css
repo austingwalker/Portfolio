@@ -9,7 +9,7 @@
     margin-bottom: 20px;
     margin-left: 20px;
     /* box-shadow: 0px -2px 2px rgba(34,34,34,0.6); */
-    background-image: url("/assets/images/portfolio_water_color.jpg"); 
+    background-image: url(process.env.PUBLIC_URL/assets/images/portfolio_water_color.jpg); 
     background-size: 300px 200px;
     background-repeat: no-repeat;
     background-position: bottom;
