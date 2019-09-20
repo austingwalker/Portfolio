@@ -18,13 +18,6 @@ class EducationModal extends React.Component {
     }));
   }
 
-  // color="danger"
-  // color="rimary"
-  // color="success"
-  // color="info"
-  // color="warning"
-  // color="danger"
-
 
   render() {
     return (
@@ -36,7 +29,10 @@ class EducationModal extends React.Component {
             <div className="educationBox">
           
               <div className="schools">
-                <p className="texas"><small><b>University of Texas at Austin</b>  <li>Web Development Certificate</li></small></p>
+                <p className="texas"><small><b>University of Texas at Austin</b>  <li>Full Stack Web Development Certificate</li></small></p>
+                <p><small><li>Completed the three month full time bootcamp twice, once as a student & again on my own in the months following</li></small></p>
+              <p><small><li>Practiced Agile methodology while working individually and on teams to complete projects</li></small></p>
+              <p><small><li>Learned to self-teach</li></small></p>
 
                 <p className="txstate"><small><b>Texas State University</b>  <li>Bachelor of Science</li><li> Major in Geography</li><li> Minor in History</li> </small></p>
 

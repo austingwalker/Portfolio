@@ -3,7 +3,7 @@ import "./Content.css";
 
 const Content = props => (
 
-    <div className="card portfolioDisplay">
+    <div className="card portfolioDisplay" id={props.pro}>
         
             {/* <img className="card-img-top" src={props.image} alt="App-Pic"/> */}
             <img className="card-img-top" src={process.env.PUBLIC_URL + props.image} alt="App-Pic"/>
@@ -15,6 +15,7 @@ const Content = props => (
             <p><small><u><a className="card-text" href={props.githubRepo} target="_blank" rel='noreferrer noopener'>GitHub Repo</a></u></small></p>
 
         </div>
+        <img className="backgroundImg" src="https://austingwalker.github.io/Portfolio/assets/images/portfolio_water_color.jpg" alt="background"/>
     </div>
 
    

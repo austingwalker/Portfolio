@@ -1,24 +1,6 @@
 [
     {
       "id": 1,
-      "image": "/assets/images/volunteerManager.png",
-      "name": "Volunteer Manager",
-      "description": "Web application developed for the purpose of managing volunteers at a local non-profit.",
-      "technologies": "React, Javascript, JSX, Bootstrap, reactstrap, axios, react-router-dom, Node.js, Express, MongoDB, Mongoose",
-      "deployedUrl": "https://thawing-refuge-91413.herokuapp.com/",
-      "githubRepo": "https://github.com/austingwalker/Volunteer-Manager-MERN" 
-    },
-    {
-      "id": 2,
-      "image": "/assets/images/URL_saver.png",
-      "name": "URL_saver",
-      "description": "Uses a MySQL database and the one-to-many relationship in order to create files with saved URL’s .",
-      "technologies": "React, Javascript, JSX, Bootstrap, Axios,  Node.js, Express, MySQL, Sequelize",
-      "deployedUrl": "https://peaceful-tundra-98649.herokuapp.com/",
-      "githubRepo": "https://github.com/austingwalker/url_saver"
-    },
-    {
-      "id": 3,
       "image": "/assets/images/newsScrubber.png",
       "name": "News Scrubber",
       "description": "Scrapes, stores, retrieves, and displays data.",
@@ -27,7 +9,7 @@
       "githubRepo": "https://github.com/austingwalker/NewsArticle-Scrubber-MERN"
     },
     {
-      "id": 4,
+      "id": 2,
       "image": "/assets/images/houseManager.png",
       "name": "House Manager",
       "description": "Authentication app with administrator & client login capabilities.",
@@ -36,7 +18,7 @@
       "githubRepo": "https://github.com/austingwalker/HouseHold-Manager-App"
     },
     {
-      "id": 5,
+      "id": 3,
       "image": "/assets/images/loteriaMemoria.png",
       "name": "Loteria Memoria",
       "description": "Card memory game.",
@@ -45,7 +27,7 @@
       "githubRepo": "https://github.com/austingwalker/Click-Game-React"
     },
     {
-      "id": 6,
+      "id": 4,
       "image": "/assets/images/BurgerBar.png",
       "name": "Burger Bar",
       "description": "Restaurant ordering app.",
@@ -54,7 +36,7 @@
       "githubRepo": "https://github.com/austingwalker/BurgerApp-Sequelize" 
     }, 
     {
-      "id": 7,
+      "id": 5,
       "image": "/assets/images/friend_finder.png",
       "name": "Friend Finder",
       "description": "Compares user answers to a list of computer character's answers to determines the best match.",
@@ -63,7 +45,7 @@
       "githubRepo": "https://github.com/austingwalker/9-FriendFinder-app" 
     },
     {
-      "id": 8,
+      "id": 6,
       "image": "/assets/images/star_wars.png",
       "name": "Star Wars Character Create",
       "description": "Search, view, and add your own Star Wars character.",
@@ -72,7 +54,7 @@
       "githubRepo": "https://github.com/austingwalker/StarWars-App"
     },
     {
-      "id": 9,
+      "id": 7,
       "image": "/assets/images/resturant_app.png",
       "name": "Resturant Seating Chart App",
       "description": "Customers can reserve a table but there are only five spots available at a time. Once five tables are in use the customer will be placed on the waiting list.",
@@ -81,7 +63,7 @@
       "githubRepo": "https://github.com/austingwalker/Restaurant-app"
     },
     {
-      "id": 10,
+      "id": 8,
       "image": "/assets/images/gif_generator.png",
       "name": "Gif Generator",
       "description": "Uses giphy.com API to make ajax calls and then receive and manipulate JSON data.",
@@ -90,7 +72,7 @@
       "githubRepo": "https://github.com/austingwalker/6-gifTastic"
     },
     {
-      "id": 11,
+      "id": 9,
       "image": "/assets/images/crystalCollector.png",
       "name": "Crystal Collector",
       "description": "Generates random numbers, tracks user clicks & totals, compares user scores to computer score, and tracks wins & losses.",
@@ -99,7 +81,7 @@
       "githubRepo": "https://github.com/austingwalker/4-Crystal-Collector"
     },
     {
-      "id": 12,
+      "id": 10,
       "image": "/assets/images/jquery_calculator.png",
       "name": "JQuery Calculator",
       "description": "Comprised of variables, click handlers, functions, and if/else statements to create a calculator.",
@@ -108,7 +90,7 @@
       "githubRepo": "https://github.com/austingwalker/jQuery-Calculator" 
     },
     {
-      "id": 13,
+      "id": 11,
       "image": "/assets/images/Hangman.png",
       "name": "Hangman",
       "description": "Austin, TX themed hangman game",

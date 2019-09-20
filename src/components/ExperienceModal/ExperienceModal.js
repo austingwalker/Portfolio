@@ -34,8 +34,7 @@ class ExperienceModal extends React.Component {
                 </p>
                 <br/>
 
-                {/* <h5><b>Student</b></h5>
-                <small><ul><li>University of Texas Coding Bootcamp</li><ul><li>Test</li></ul></ul></small> */}
+                <p className="freelance"><small><b>Contract Software Engineer</b><li>RBI Austin</li></small></p>
 
                 <p className="student"><small><b>Student</b><li>University of Texas Coding Bootcamp</li></small></p>
                 

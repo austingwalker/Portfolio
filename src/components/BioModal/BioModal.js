@@ -27,15 +27,15 @@ class BioModal extends React.Component {
           <ModalHeader className="bioHeader"  toggle={this.toggle}><strong>Bio</strong></ModalHeader>
           <ModalBody>
           <div className="bioBox">
-            <p className="bioP">I love development because I enjoyed creating things, solving problems, serving people using technology, and making life more efficient. 
+            <p className="bioP">I'm a Software Engineer who loves to code and is passionate about learning and growing. I'm strong in a variety of work environments and pursue excellence in all aspects of a project. I use both technical and soft skills to see people flourish by identifying needs and providing fruitful solutions. 
             </p>
             <br/>
             <p className="bioP">
-            I wrote my first lines of code on Khan Academy and Codeacademy and found that hours would quickly pass by while doing tutorials. Because of my interest I made the decision to take the UT Austin Coding Bootcamp three-month full-time course. The course covered skills and technologies needed to build full stack websites and applications. While taking the course I had to work another job, and as such wasn't able to dedicate the time to learning the material as well as I would have liked. So, at the end of the three-month bootcamp, I decided to invest the time to go back through the entire course of material. I spent 8-14 hours a day at home re-watching every recorded class lecture and re-doing every exercise, homework, and project in order to solidify my understanding of the material and it payed off! Now I am able to build fully functional full stack applications. 
+            I started out as a self-taught hobby coder and quickly fell in love with the craft. I decided to pursue software engineering full-time and received formal education through a three month full-time web development certificate course at the University of Texas in the fall of 2018. Including my course work I’ve made it my full time job since the spring of 2018 to fully immersing myself and learn all things software engineering.
             </p>
             <br/>
             <p className="bioP">
-            I share my story above to highlight that I’m dedicated to learning this craft and that I have the drive to self-teach and complete the job at hand with excellence. In my time becoming a developer, it's become apparent that I don't know what I don't know. But, that is one of the things that draws me to coding -- that there is so much to continuously learn. I am hungry to keep pushing myself, grow as a developer, and contribute to a team and company.
+            Before becoming an engineer I worked in the non-profit world where there were limited resources and ample amounts of work to be done. This required working in a fast-paced environment, constant communication, setting priorities, wearing many hats, interacting with a variety of different people, and thinking of innovative solutions to a wide range of problems. I'm now blending my past work experience with my coding experience to continue to take part in work that allows others to thrive. I will excel working on a diverse spectrum of dynamic projects throughout the software life cycle and work well in an agile environment both individually and on a team. Most likely all the candidates you will interview will know how to code. I know how to code and have extremely strong soft skills as well. 
             </p>
           </div>
           </ModalBody>
