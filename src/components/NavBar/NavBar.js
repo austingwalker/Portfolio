@@ -33,7 +33,7 @@ const NavBar = () => (
       <Row className="navRowTwo">
         <nav className="titleBox">
           <div className="fswdBox" href="/">
-            <h1 className="title">Full Stack Software Engineer</h1>  
+            <h1 className="title">Full Stack Software Developer</h1>  
           </div>
         </nav>
       </Row>
