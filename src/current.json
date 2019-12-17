@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/images/complete_insure.png",
+      "company": "Shadrach Insurance Agency LLC",
+      "title": "Contract Software Developer",
+      "description": "Developing web-based software for generating new customer leads as well as sales tools to support the servicing of prospective and existing customers",
+      "technologies": "HTML, CSS, Javascript, jQuery, Ruby on Rails, PostgresSQL, VirtualBox, DigitalOcean",
+      "companyWebsite": "https://complete.insure/"
+    }
+  ]
+  

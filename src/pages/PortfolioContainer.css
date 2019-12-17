@@ -41,7 +41,10 @@ body {
     .containerBox {
         padding: 0px;
         margin: 0px;
-    
+    }
+
+    .personalCol {
+        width: 100%;
     }
 
     h5{
