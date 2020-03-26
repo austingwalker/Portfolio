@@ -31,10 +31,10 @@ class SkillsModal extends React.Component {
               
               <div className="skillsBox">
               <h5>Technologies</h5>
-              <p className="listedSkills">React  | Javascript | jQuery | JSX |  Node.js | NPM | YARN | Postman | Express | SQL | Sequelize | MySQL |  MongoDB | Mongoose | Robo 3T | HTML | CSS | Bootstrap  | Handlebars </p>
+              <p className="listedSkills">HTML | CSS | Bootstrap | React  | JavaScript | jQuery | Node.js | Ruby on Rails |  MySQL | MongoDB</p>
               <br/>
               <h5>Skills</h5>
-                <p className="listedSkills">REST APIs | JSON | SEO | AGILE | MVC | Git | GitHub | Heroku </p>
+                <p className="listedSkills">GitHub | Heroku | Git | Adobe InDesign | CMS | Trello | Agile</p>
               </div>
             </div>
           </ModalBody>

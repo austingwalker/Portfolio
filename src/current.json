@@ -1,6 +1,15 @@
 [
     {
       "id": 1,
+      "image": "/assets/images/capmetro.jpg",
+      "company": "Capital Metro",
+      "title": "Frontend Developer",
+      "description": "Responsible for the design, development, and maintenance of web pages and UI components. Assisted with the migration to a new Content Management System by auditing code and content on 200+ web pages",
+      "technologies": "HTML, CSS, Bootstrap, Javascript, jQuery, Ektron(CMS), Sitefinity(CMS)",
+      "companyWebsite": "https://capmetro.org"
+    },
+    {
+      "id": 2,
       "image": "/assets/images/complete_insure.png",
       "company": "Shadrach Insurance Agency LLC",
       "title": "Contract Software Developer",

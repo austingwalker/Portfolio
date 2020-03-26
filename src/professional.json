@@ -5,8 +5,8 @@
       "company": "RBI Austin",
       "title": "Contract Software Developer",
       "name": "Tee Ball Lineup Generator",
-      "description": "Created a SaaS application that generates a Tee Ball lineup adhering to the RBI Austin League Rules. Turned a 30 minute task into 30 seconds by soliving complex logic using objects and arrays as mian data structures. Researched and implemented npm packages immutability-helper and react-contenteditable.",
-      "technologies": "React, Javascript, JSX, reactstrap, immutability-helper, react-contenteditable",
+      "description": "Created a single page React application to generate TBall lineups adhering to the RBI Austin League Rules. Automated a 30 minute task into 30 second saving 25 volunteer coaches 30 minutes each week for 10 weeks totaling 125 hours saved.",
+      "technologies": "HTML, CSS, Bootstrap,  React, JavaScript, JSX",
       "deployedUrl": "https://www.rbiaustintballlineup.com",
       "githubRepo": "https://github.com/austingwalker/RBIAustin_Tball_Lineup_Generator" 
     }

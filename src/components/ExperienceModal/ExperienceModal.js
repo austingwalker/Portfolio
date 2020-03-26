@@ -34,7 +34,11 @@ class ExperienceModal extends React.Component {
                 </p>
                 <br/>
 
-                <p className="freelance"><small><b>Contract Software Engineer</b><li>RBI Austin</li></small></p>
+                <p className="professional"><small><b>Frontend Developer</b><li>Capital Metro</li></small></p>
+
+                <p className="professional"><small><b>Contract Software Developer</b><li>Shadrach Insurance Agency LLC</li></small></p>
+
+                <p className="professional"><small><b>Contract Software Engineer</b><li>RBI Austin</li></small></p>
 
                 <p className="student"><small><b>Student</b><li>University of Texas Coding Bootcamp</li></small></p>
                 

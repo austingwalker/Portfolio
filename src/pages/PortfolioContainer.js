@@ -27,7 +27,7 @@ class Portfolio extends Component {
         </Row>
         <Row className="portfolioRow">
         {current.map(item => (
-              <Col className="noGuttersP" >
+              <Col md="6" className="noGuttersP" >
               <Card
                 pro="pro"
                 key={item.id}
@@ -71,6 +71,7 @@ class Portfolio extends Component {
             {personalWork.map(item => (
               <Col md="6" key={item.id} className="noGuttersP" >
               <Content
+                    pro="pro"
                     key={item.id}
                     id={item.id}
                     image={item.image}
@@ -88,8 +89,9 @@ class Portfolio extends Component {
           </Row>
           <Row className="portfolioRow">
             {courseWork.map(item => (
-              <Col md="3" key={item.id} className="noGuttersP " >
+              <Col md="4" key={item.id} className="noGuttersP " >
               <Content
+                    pro="pro"
                     key={item.id}
                     id={item.id}
                     image={item.image}
